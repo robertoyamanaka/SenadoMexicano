@@ -10,7 +10,7 @@ semblanza, intervenciones, votaciones, información personal y asistencias. Esta
 descriptiva de la data.
 
 
-## Installation
+## Requirements
 
 Este proyecto utiliza Python. También se requiere bajar MongoDB para generar las bases de datos.
 
@@ -36,6 +36,6 @@ Las librerias que se deben descargar
 El código comienza en la página de [senadores](https://www.senado.gob.mx/64/senadores) para el start_urls donde se encuentran los senadores hombres divididos por partido político
 Se recorre cada perfil y se guardan en una DB de MongoDB. Después se debe repetir el código cambiando start_urls para las [senadoras](https://www.senado.gob.mx/64/senadoras)
 
-##Roadmap
+## Roadmap
 Tengo la idea de después eficientizar este código y, además, agregar información de las interacciones en redes sociales de los senadores utilizando la API de Twitter.
 Creo que esto puede ayudar mucho a explicar el comportamiento de los senadores.
